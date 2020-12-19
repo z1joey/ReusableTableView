@@ -53,14 +53,20 @@ public class MultoNavigationViewController: UIViewController {
     public override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         setChild(rootViewController, containerView: containerView)
-        bgImageViewMask = UIView(frame: navBarTableView.bounds)
-        bgImageViewMask?.backgroundColor = .black
-        //bgImageViewMask?.layer.sketchShadow(alpha: 0.3, x: 0, y: 3, blur: 4)
-        bgImageView.mask = bgImageViewMask
 
         header?.delegate = self
         navBarTableView.header = header as? UIView
         navBarTableView.backgroundColor = .clear
+    }
+
+    public override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        if bgImageViewMask == nil {
+            bgImageViewMask = UIView(frame: navBarTableView.bounds)
+            bgImageViewMask?.backgroundColor = .black
+            //bgImageViewMask?.layer.sketchShadow(alpha: 0.3, x: 0, y: 3, blur: 4)
+            bgImageView.mask = bgImageViewMask
+        }
     }
 
     private func animateNavBar(_ status: MultoNavBarStatus, duration: Double = 0.8, completion: (() -> Void)? = nil) {

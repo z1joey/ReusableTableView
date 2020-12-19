@@ -25,7 +25,7 @@
                 <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DrX-V8-70K">
                     <rect key="frame" x="0.0" y="91" width="414" height="805"/>
                 </containerView>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="onj-rn-cLf">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="onj-rn-cLf">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                 </imageView>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" contentInsetAdjustmentBehavior="never" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="NgA-gY-Sby" userLabel="NavBar" customClass="MultoNavigationBarTableView" customModule="CustomTableView" customModuleProvider="target">
@@ -45,7 +45,6 @@
                 <constraint firstItem="onj-rn-cLf" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="LrN-ZR-Kfg"/>
                 <constraint firstItem="onj-rn-cLf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="QNa-9H-Wnp"/>
                 <constraint firstAttribute="trailing" secondItem="DrX-V8-70K" secondAttribute="trailing" id="TNm-jF-eVy"/>
-                <constraint firstItem="DrX-V8-70K" firstAttribute="top" secondItem="NgA-gY-Sby" secondAttribute="bottom" id="ZRj-eh-5DC"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="onj-rn-cLf" secondAttribute="trailing" id="gcc-7B-1Vu"/>
                 <constraint firstAttribute="bottom" secondItem="DrX-V8-70K" secondAttribute="bottom" id="gxn-kN-p1c"/>
                 <constraint firstItem="NgA-gY-Sby" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="wP1-YG-CsT"/>

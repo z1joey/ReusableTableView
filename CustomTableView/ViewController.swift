@@ -34,7 +34,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func pushAction(_ sender: UIButton) {
-        let root = UIViewController()
+        let root = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Center")
         let nav = MultoNavigationViewController(root: root)
 
         let header = MultoNavBarHeader()
