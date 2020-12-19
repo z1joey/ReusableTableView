@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MultoNavigationViewController" customModule="CustomTableView" customModuleProvider="target">
+            <connections>
+                <outlet property="bgImageView" destination="onj-rn-cLf" id="j0h-EK-kPW"/>
+                <outlet property="containerView" destination="DrX-V8-70K" id="MKp-do-GP5"/>
+                <outlet property="navBarHeightConstraint" destination="gmj-nX-h84" id="3fx-lS-8DZ"/>
+                <outlet property="navBarTableView" destination="NgA-gY-Sby" id="e8Q-E1-uYj"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Wil-Wd-QNV"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DrX-V8-70K">
+                    <rect key="frame" x="0.0" y="91" width="414" height="805"/>
+                </containerView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="onj-rn-cLf">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" contentInsetAdjustmentBehavior="never" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="NgA-gY-Sby" userLabel="NavBar" customClass="MultoNavigationBarTableView" customModule="CustomTableView" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="91"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="91" id="gmj-nX-h84"/>
+                    </constraints>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="NgA-gY-Sby" secondAttribute="trailing" id="39h-Gk-RZh"/>
+                <constraint firstItem="DrX-V8-70K" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="DcT-T2-4hX"/>
+                <constraint firstItem="NgA-gY-Sby" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="FrJ-VK-cdN"/>
+                <constraint firstAttribute="bottom" secondItem="onj-rn-cLf" secondAttribute="bottom" id="HeU-tR-H11"/>
+                <constraint firstItem="onj-rn-cLf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="LrN-ZR-Kfg"/>
+                <constraint firstItem="onj-rn-cLf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="QNa-9H-Wnp"/>
+                <constraint firstAttribute="trailing" secondItem="DrX-V8-70K" secondAttribute="trailing" id="TNm-jF-eVy"/>
+                <constraint firstItem="DrX-V8-70K" firstAttribute="top" secondItem="NgA-gY-Sby" secondAttribute="bottom" id="ZRj-eh-5DC"/>
+                <constraint firstAttribute="trailing" secondItem="onj-rn-cLf" secondAttribute="trailing" id="gcc-7B-1Vu"/>
+                <constraint firstAttribute="bottom" secondItem="DrX-V8-70K" secondAttribute="bottom" id="gxn-kN-p1c"/>
+                <constraint firstItem="NgA-gY-Sby" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="wP1-YG-CsT"/>
+                <constraint firstItem="DrX-V8-70K" firstAttribute="top" secondItem="NgA-gY-Sby" secondAttribute="bottom" id="xaD-If-WcQ"/>
+            </constraints>
+            <point key="canvasLocation" x="141" y="151"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="background" width="375" height="812"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

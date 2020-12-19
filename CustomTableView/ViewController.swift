@@ -32,6 +32,14 @@ class ViewController: UIViewController {
         let newData = [textField.text!]
         tableView.set(data: newData)
     }
+
+    @IBAction func pushAction(_ sender: UIButton) {
+        let root = UIViewController()
+        let nav = MultoNavigationViewController(root: root)
+
+        nav.header = MultoNavBarHeader()
+        navigationController?.pushViewController(nav, animated: true)
+    }
 }
 
 extension ViewController: ReusableTableViewSectionHeaderDelegate {

@@ -12,6 +12,16 @@
 		D43E0AC2258DBD0F00FC6E52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43E0AC0258DBD0F00FC6E52 /* Main.storyboard */; };
 		D43E0AC4258DBD1100FC6E52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43E0AC3258DBD1100FC6E52 /* Assets.xcassets */; };
 		D43E0AC7258DBD1100FC6E52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43E0AC5258DBD1100FC6E52 /* LaunchScreen.storyboard */; };
+		D4826AF4258DF4A400468543 /* MultoNavBarHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4826AEB258DF4A400468543 /* MultoNavBarHeader.swift */; };
+		D4826AF5258DF4A400468543 /* MultoNavBarHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4826AEC258DF4A400468543 /* MultoNavBarHeader.xib */; };
+		D4826AF6258DF4A400468543 /* NavBarSearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4826AED258DF4A400468543 /* NavBarSearchCell.xib */; };
+		D4826AF8258DF4A400468543 /* NavBarSortCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4826AEF258DF4A400468543 /* NavBarSortCell.xib */; };
+		D4826AF9258DF4A400468543 /* NavBarSortCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4826AF0258DF4A400468543 /* NavBarSortCell.swift */; };
+		D4826AFA258DF4A400468543 /* NavBarSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4826AF1258DF4A400468543 /* NavBarSearchCell.swift */; };
+		D4826AFB258DF4A400468543 /* MultoNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4826AF2258DF4A400468543 /* MultoNavigationViewController.swift */; };
+		D4826AFC258DF4A400468543 /* MultoNavigationBarTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4826AF3258DF4A400468543 /* MultoNavigationBarTableView.swift */; };
+		D4826B00258DF77200468543 /* MultoNavigationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4826AFF258DF77200468543 /* MultoNavigationViewController.xib */; };
+		D4826B05258DFAA200468543 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4826B04258DFAA200468543 /* NibLoadable.swift */; };
 		D4AC1A49258DC1D5003917C5 /* NibCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4AC1A48258DC1D5003917C5 /* NibCell.xib */; };
 		D4AC1A4C258DC1E8003917C5 /* NibCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AC1A4B258DC1E8003917C5 /* NibCell.swift */; };
 		D4AC1A52258DC36F003917C5 /* ReusableTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AC1A51258DC36F003917C5 /* ReusableTableView.swift */; };
@@ -25,6 +35,16 @@
 		D43E0AC3258DBD1100FC6E52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D43E0AC6258DBD1100FC6E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D43E0AC8258DBD1100FC6E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4826AEB258DF4A400468543 /* MultoNavBarHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultoNavBarHeader.swift; sourceTree = "<group>"; };
+		D4826AEC258DF4A400468543 /* MultoNavBarHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultoNavBarHeader.xib; sourceTree = "<group>"; };
+		D4826AED258DF4A400468543 /* NavBarSearchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavBarSearchCell.xib; sourceTree = "<group>"; };
+		D4826AEF258DF4A400468543 /* NavBarSortCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavBarSortCell.xib; sourceTree = "<group>"; };
+		D4826AF0258DF4A400468543 /* NavBarSortCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavBarSortCell.swift; sourceTree = "<group>"; };
+		D4826AF1258DF4A400468543 /* NavBarSearchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavBarSearchCell.swift; sourceTree = "<group>"; };
+		D4826AF2258DF4A400468543 /* MultoNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultoNavigationViewController.swift; sourceTree = "<group>"; };
+		D4826AF3258DF4A400468543 /* MultoNavigationBarTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultoNavigationBarTableView.swift; sourceTree = "<group>"; };
+		D4826AFF258DF77200468543 /* MultoNavigationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MultoNavigationViewController.xib; sourceTree = "<group>"; };
+		D4826B04258DFAA200468543 /* NibLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
 		D4AC1A48258DC1D5003917C5 /* NibCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NibCell.xib; sourceTree = "<group>"; };
 		D4AC1A4B258DC1E8003917C5 /* NibCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibCell.swift; sourceTree = "<group>"; };
 		D4AC1A51258DC36F003917C5 /* ReusableTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableTableView.swift; sourceTree = "<group>"; };
@@ -60,6 +80,8 @@
 		D43E0AB9258DBD0F00FC6E52 /* CustomTableView */ = {
 			isa = PBXGroup;
 			children = (
+				D4826B04258DFAA200468543 /* NibLoadable.swift */,
+				D4AC1A54258DE20E003917C5 /* ReusableNavigation */,
 				D4AC1A4E258DC1EF003917C5 /* ReusableTableView */,
 				D43E0ABA258DBD0F00FC6E52 /* AppDelegate.swift */,
 				D43E0ABE258DBD0F00FC6E52 /* ViewController.swift */,
@@ -71,6 +93,45 @@
 			path = CustomTableView;
 			sourceTree = "<group>";
 		};
+		D4826AEA258DF4A400468543 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D4826AF3258DF4A400468543 /* MultoNavigationBarTableView.swift */,
+				D4826B07258E025400468543 /* Header */,
+				D4826B08258E025F00468543 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D4826B07258E025400468543 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				D4826AEC258DF4A400468543 /* MultoNavBarHeader.xib */,
+				D4826AEB258DF4A400468543 /* MultoNavBarHeader.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		D4826B08258E025F00468543 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D4826AED258DF4A400468543 /* NavBarSearchCell.xib */,
+				D4826AEF258DF4A400468543 /* NavBarSortCell.xib */,
+				D4826AF0258DF4A400468543 /* NavBarSortCell.swift */,
+				D4826AF1258DF4A400468543 /* NavBarSearchCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D4826B09258E028100468543 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D4826AF2258DF4A400468543 /* MultoNavigationViewController.swift */,
+				D4826AFF258DF77200468543 /* MultoNavigationViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		D4AC1A4E258DC1EF003917C5 /* ReusableTableView */ = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +140,15 @@
 				D4AC1A51258DC36F003917C5 /* ReusableTableView.swift */,
 			);
 			path = ReusableTableView;
+			sourceTree = "<group>";
+		};
+		D4AC1A54258DE20E003917C5 /* ReusableNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				D4826B09258E028100468543 /* Controller */,
+				D4826AEA258DF4A400468543 /* View */,
+			);
+			path = ReusableNavigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +208,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4826AF5258DF4A400468543 /* MultoNavBarHeader.xib in Resources */,
+				D4826AF6258DF4A400468543 /* NavBarSearchCell.xib in Resources */,
 				D43E0AC7258DBD1100FC6E52 /* LaunchScreen.storyboard in Resources */,
 				D4AC1A49258DC1D5003917C5 /* NibCell.xib in Resources */,
 				D43E0AC4258DBD1100FC6E52 /* Assets.xcassets in Resources */,
+				D4826AF8258DF4A400468543 /* NavBarSortCell.xib in Resources */,
+				D4826B00258DF77200468543 /* MultoNavigationViewController.xib in Resources */,
 				D43E0AC2258DBD0F00FC6E52 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,10 +226,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4826AF4258DF4A400468543 /* MultoNavBarHeader.swift in Sources */,
 				D4AC1A52258DC36F003917C5 /* ReusableTableView.swift in Sources */,
 				D4AC1A4C258DC1E8003917C5 /* NibCell.swift in Sources */,
+				D4826B05258DFAA200468543 /* NibLoadable.swift in Sources */,
 				D43E0ABF258DBD0F00FC6E52 /* ViewController.swift in Sources */,
 				D43E0ABB258DBD0F00FC6E52 /* AppDelegate.swift in Sources */,
+				D4826AFA258DF4A400468543 /* NavBarSearchCell.swift in Sources */,
+				D4826AFB258DF4A400468543 /* MultoNavigationViewController.swift in Sources */,
+				D4826AF9258DF4A400468543 /* NavBarSortCell.swift in Sources */,
+				D4826AFC258DF4A400468543 /* MultoNavigationBarTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
