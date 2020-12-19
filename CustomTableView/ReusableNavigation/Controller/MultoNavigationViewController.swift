@@ -17,13 +17,6 @@ public class MultoNavigationViewController: UIViewController {
     private var bgImageViewMask: UIView?
 
     public var header: MultoNavBarHeaderProtocol?
-//    {
-//        willSet {
-//            guard header is UIView else {
-//                fatalError("Header must be UIView")
-//            }
-//        }
-//    }
 
     public var rootViewController: UIViewController? {
         willSet {
@@ -67,6 +60,7 @@ public class MultoNavigationViewController: UIViewController {
 
         header?.delegate = self
         navBarTableView.header = header as? UIView
+        navBarTableView.backgroundColor = .clear
     }
 
     private func animateNavBar(_ status: MultoNavBarStatus, duration: Double = 0.8, completion: (() -> Void)? = nil) {

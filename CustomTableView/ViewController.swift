@@ -37,7 +37,9 @@ class ViewController: UIViewController {
         let root = UIViewController()
         let nav = MultoNavigationViewController(root: root)
 
-        nav.header = MultoNavBarHeader()
+        let header = MultoNavBarHeader()
+        header.tintColor = .clear
+        nav.header = header
         navigationController?.pushViewController(nav, animated: true)
     }
 }
