@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		652DC7782592497E00707668 /* String+Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652DC7772592497E00707668 /* String+Addition.swift */; };
 		D43E0ABB258DBD0F00FC6E52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E0ABA258DBD0F00FC6E52 /* AppDelegate.swift */; };
 		D43E0ABF258DBD0F00FC6E52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E0ABE258DBD0F00FC6E52 /* ViewController.swift */; };
 		D43E0AC2258DBD0F00FC6E52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43E0AC0258DBD0F00FC6E52 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		652DC7772592497E00707668 /* String+Addition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Addition.swift"; sourceTree = "<group>"; };
 		D43E0AB7258DBD0F00FC6E52 /* CustomTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D43E0ABA258DBD0F00FC6E52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D43E0ABE258DBD0F00FC6E52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				D4826B04258DFAA200468543 /* NibLoadable.swift */,
+				652DC7772592497E00707668 /* String+Addition.swift */,
 				D4AC1A54258DE20E003917C5 /* ReusableNavigation */,
 				D4AC1A4E258DC1EF003917C5 /* ReusableTableView */,
 				D43E0ABA258DBD0F00FC6E52 /* AppDelegate.swift */,
@@ -228,6 +231,7 @@
 			files = (
 				D4826AF4258DF4A400468543 /* MultoNavBarHeader.swift in Sources */,
 				D4AC1A52258DC36F003917C5 /* ReusableTableView.swift in Sources */,
+				652DC7782592497E00707668 /* String+Addition.swift in Sources */,
 				D4AC1A4C258DC1E8003917C5 /* NibCell.swift in Sources */,
 				D4826B05258DFAA200468543 /* NibLoadable.swift in Sources */,
 				D43E0ABF258DBD0F00FC6E52 /* ViewController.swift in Sources */,
